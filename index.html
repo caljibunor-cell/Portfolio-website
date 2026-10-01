@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caleb_Dev — Frontend Developer and Web Designer portfolio">
+  <title>Caleb_Dev | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home"><span>&lt;/&gt;</span> Caleb_<b>Dev</b></a>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="hire-btn" href="#contact">Hire Me</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text">
+        <p class="hello">Hello, I'm</p>
+        <h1>Caleb <span>_Dev</span></h1>
+        <h2>Frontend Developer | Web Designer</h2>
+        <p class="intro">
+          I build modern, responsive and user-friendly websites that turn ideas into reality.
+          I love coding, solving problems and creating digital experiences that make an impact.
+        </p>
+        <div class="buttons">
+          <a href="#projects" class="primary-btn">&lt;/&gt;&nbsp; View My Projects</a>
+          <a href="#" class="secondary-btn" id="cvBtn">⇩&nbsp; Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="GitHub">◉</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter">♥</a>
+          <a href="mailto:caljibunor@gmail.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="pngwing.com (1).png" style="width: 120%;" alt="">
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p>I'm Caleb, a passionate frontend developer with a strong interest in creating clean, responsive and accessible web applications. I enjoy learning new technologies, improving my skills, and working on real-world projects.</p>
+        <div class="facts">
+          <div><strong>🎓</strong><span>Currently Studying<small>Software Engineering</small></span></div>
+          <div><strong>🩸</strong><span>Location<small>Lagos, Nigeria</small></span></div>
+          <div><strong>✨</strong><span>Experience<small>1+ year (Personal Projects)</small></span></div>
+        </div>
+      </div>
+      <div class="goal-card">
+        <h3>🎯 &nbsp; My Goal</h3>
+        <p>To become a top-tier full-stack developer and build products that solve real problems and create value.</p>
+        <div class="signature">Caleb_Dev</div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill"><b>HTML5</b><span>🌐</span></div>
+        <div class="skill"><b>CSS3</b><span>🎨</span></div>
+        <div class="skill"><b>JavaScript</b><span>JS</span></div>
+        <div class="skill"><b>React</b><span>⚛</span></div>
+        <div class="skill"><b>Tailwind CSS</b><span>〰</span></div>
+        <div class="skill"><b>Git</b><span>◆</span></div>
+        <div class="skill"><b>GitHub</b><span>◉</span></div>
+        <div class="skill"><b>Figma</b><span>●</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <a href="#contact">View All Projects →</a>
+      </div>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-image ecommerce">E-Commerce UI</div>
+          <h3>E-Commerce Website</h3>
+          <p>A modern online store with cart, product details and secure checkout.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project">
+          <div class="project-image nails">Nail Bliss</div>
+          <h3>Nail Bliss (Salon Website)</h3>
+          <p>A stylish website for a manicure and pedicure business with booking features.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project">
+          <div class="project-image dashboard">Admin Dashboard</div>
+          <h3>Admin Dashboard</h3>
+          <p>A responsive admin panel with charts and data management.</p>
+          <div class="tags"><span>React</span><span>Tailwind CSS</span><span>Chart.js</span></div>
+        </article>
+        <article class="project">
+          <div class="project-image todo">To-Do App</div>
+          <h3>To-Do App</h3>
+          <p>A simple and effective task manager with local storage.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-info">
+        <h2 class="section-title">Get <span>In Touch</span></h2>
+        <p>Have a project in mind or just want to say hello? I'd love to hear from you!</p>
+        <p>✉ &nbsp; caljibunor@gmail.com</p>
+        <p>☎ &nbsp; +234 813 187 2037</p>
+        <p>📍 &nbsp; Asaba, Nigeria</p>
+      </div>
+      <form id="contactForm">
+        <div class="form-row">
+          <input required type="text" placeholder="Your Name" aria-label="Your Name">
+          <input required type="email" placeholder="Your Email" aria-label="Your Email">
+        </div>
+        <textarea required placeholder="Your Message" aria-label="Your Message"></textarea>
+        <button class="primary-btn" type="submit">✈ &nbsp; Send Message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Caleb_Dev. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
